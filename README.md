@@ -39,9 +39,13 @@ UDL lesson modes, tiered Wave 1/2/3 supports, an AI tutor with voice, 3D and com
 **Stack:** Next.js · Supabase · Vercel AI SDK · OpenAI · Anthropic · Gemini · ElevenLabs · MediaPipe · Three.js · Upstash · Stripe · Vitest + Playwright
 
 ### SafeFamily
-Family safety platform run as a pnpm/Turborepo monorepo: a custom DNS resolver and policy engine, ISP and operator APIs, router agents (OpenWrt, RDK-B, OpenSync, TR-369/USP), native parent and child apps, and an age-verification SDK designed with eIDAS in mind.
-Child-safe AI chat runs on-device with a cloud gateway fallback. Sessions are monitored with purge-on-close. The codebase has been through repeated internal security audits.
-**Stack:** TypeScript · Go · Swift · Kotlin · Kubernetes · Docker · Postgres · Redis · ClickHouse · LMDB
+Child online safety platform with three parts:
+- **Network-level parental controls** that ISPs offer their customers, enforced at DNS level on every device in the home
+- **Graduated Freedom Model**: controls that loosen as a child grows (ages 8 to 18), so trust is earned and not just switched off at a birthday
+- **SafeFamily Verify**: privacy-preserving age verification, where proof of age is checked without handing over identity documents
+
+Plus parent and child apps on iOS and Android, and a child-safe AI chat.
+**Stack:** TypeScript · Go · Kotlin (Ktor) · Swift · Next.js · Docker · Kubernetes · Postgres · Redis · ClickHouse
 
 ### TourPro
 Operations for touring professionals: show settlements and P&L, flight and hotel booking via Duffel, Xero export, crew logistics, and offline sync on mobile.
