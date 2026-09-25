@@ -19,7 +19,7 @@ I work hands-on in the code: native mobile, web, backend, infra and embedded.
 | **RoundCaddy** | [roundcaddy.com](https://roundcaddy.com) | Strokes-gained golf analytics on web, iOS, Android and Apple Watch |
 | **BeatDeck** | [beatdeckapp.com](https://beatdeckapp.com) · [App Store](https://apps.apple.com/app/beatdeck/id6770398459) · [Google Play](https://play.google.com/store/apps/details?id=com.beatdeck.app) | Music timeline party game, native on both platforms, 28 languages |
 | **Scoilius** | [scoileus.com](https://scoileus.com) | Bilingual Irish primary-school platform with ADHD, autism and dyslexia support strands |
-| **SafeFamily** | [Status page](https://github.com/TerVRI/safefamily-status) | ISP-grade DNS parental controls and child-safe AI chat |
+| **SafeFamily** | [safefamily.ie](https://safefamily.ie) | ISP-grade DNS parental controls and child-safe AI chat |
 
 ---
 
@@ -117,7 +117,6 @@ Some of my current work is under NDA. I can share the stack, not the client or t
 
 | Repo | Description |
 |------|-------------|
-| [safefamily-status](https://github.com/TerVRI/safefamily-status) | SafeFamily uptime monitoring (Upptime) |
 | [esp32-radar-upstream](https://github.com/TerVRI/esp32-radar-upstream) | Fork of a handheld ESP32 Wi-Fi/BLE scope |
 
 Private repos (demo or read access for interviews): `golfstats` · `safefamily` · `TourPro` · `Rang4mentor` · `ipteevee`
