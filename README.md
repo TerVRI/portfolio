@@ -78,6 +78,11 @@ Some of my current work is under NDA. I can share the stack, not the client or t
 
 | Project | Focus | Stack |
 |---------|-------|-------|
+| **NAIC** | AI to cut missed hospital appointments: patient portal, clinical dashboard, risk scoring, and messaging in English and Irish | React · Tailwind |
+| **OpportunityOS** | Pilot for the National Youth Opportunity Guarantee (NYOG): family, youth, and frontline views of plans, services, and outcomes | Next.js · Postgres · Drizzle · Tailwind |
+| **Startups** | Local-first operating system for founders: knowledge base, document-grounded adviser, runway tools, and a daily briefing | Next.js · SQLite |
+| **OBD diagnostics** | Car diagnostics in the browser. Plug in an ELM327 over Web Serial or WebUSB and read the car on the page. No driver to install | TypeScript · Web Serial · WebUSB · Next.js |
+| **HomeOwner** | Home record for owners: room scans, systems, documents, maintenance, and expenses on iOS, Android, and web | SwiftUI · RoomPlan · Kotlin · Next.js · Supabase |
 | **R2BotBert** | Quiet AI archivist for Signal groups: summaries, decisions, todos, search. Pluggable models including local-only | TypeScript · BullMQ · Drizzle · Postgres · Docker |
 | **HomeAuto** | Local-first smart home: Hue, Sonos, Zigbee and cameras behind one app | Home Assistant on Raspberry Pi · Expo · Zigbee2MQTT · go2rtc |
 | **Krib** | Cloud control for the Systemlink / AquaEko heating system with voice assistants and a watch app | Node.js · Postgres · Caddy · ESP32 · Alexa / Google Home |
