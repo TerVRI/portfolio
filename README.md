@@ -16,14 +16,24 @@ I work hands-on in the code: native mobile, web, backend, infra and embedded.
 
 | Product | Link | What it is |
 |---------|------|------------|
+| **SafeFamily** | [safefamily.ie](https://safefamily.ie) | ISP-grade DNS parental controls and child-safe AI chat |
 | **RoundCaddy** | [roundcaddy.com](https://roundcaddy.com) | Strokes-gained golf analytics on web, iOS, Android and Apple Watch |
 | **BeatDeck** | [beatdeckapp.com](https://beatdeckapp.com) · [App Store](https://apps.apple.com/app/beatdeck/id6770398459) · [Google Play](https://play.google.com/store/apps/details?id=com.beatdeck.app) | Music timeline party game, native on both platforms, 28 languages |
-| **Scoilius** | [scoileus.com](https://scoileus.com) | Bilingual Irish primary-school platform with ADHD, autism and dyslexia support strands |
-| **SafeFamily** | [safefamily.ie](https://safefamily.ie) | ISP-grade DNS parental controls and child-safe AI chat |
+| **Scoileus** | [scoileus.com](https://scoileus.com) | Bilingual Irish primary-school platform with ADHD, autism and dyslexia support strands |
+| **Proofios** | [proofios.com](https://proofios.com) | Irish company search for startups and buyers, with clear pricing and UK coverage |
 
 ---
 
 ## Product snapshots
+
+### SafeFamily
+Child online safety platform with three parts:
+- **Network-level parental controls** that ISPs offer their customers, enforced at DNS level on every device in the home
+- **Graduated Freedom Model**: controls that loosen as a child grows (ages 8 to 18), so trust is earned and not just switched off at a birthday
+- **SafeFamily Verify**: privacy-preserving age verification, where proof of age is checked without handing over identity documents
+
+Plus parent and child apps on iOS and Android, and a child-safe AI chat.
+**Stack:** TypeScript · Go · Kotlin (Ktor) · Swift · Next.js · Docker · Kubernetes · Postgres · Redis · ClickHouse
 
 ### RoundCaddy
 GPS shot tracking, course map overlays built from OpenStreetMap data, a coach portal, and weather-adjusted distances.
@@ -34,18 +44,13 @@ Turborepo monorepo sharing one data model across four clients.
 Native iOS and Android party game with global leaderboards, localised store listings in 28 languages, and production crash and product analytics.
 **Stack:** SwiftUI · Kotlin / Jetpack Compose · Next.js (web) · Supabase · PostHog · Sentry · fastlane · TestFlight / Play internal testing
 
-### Scoilius
+### Scoileus
 UDL lesson modes, tiered Wave 1/2/3 supports, an AI tutor with voice, 3D and computer-vision activities, and offline-capable PWA delivery.
 **Stack:** Next.js · Supabase · Vercel AI SDK · OpenAI · Anthropic · Gemini · ElevenLabs · MediaPipe · Three.js · Upstash · Stripe · Vitest + Playwright
 
-### SafeFamily
-Child online safety platform with three parts:
-- **Network-level parental controls** that ISPs offer their customers, enforced at DNS level on every device in the home
-- **Graduated Freedom Model**: controls that loosen as a child grows (ages 8 to 18), so trust is earned and not just switched off at a birthday
-- **SafeFamily Verify**: privacy-preserving age verification, where proof of age is checked without handing over identity documents
-
-Plus parent and child apps on iOS and Android, and a child-safe AI chat.
-**Stack:** TypeScript · Go · Kotlin (Ktor) · Swift · Next.js · Docker · Kubernetes · Postgres · Redis · ClickHouse
+### Proofios
+Company search aimed at startups and anyone checking an Irish or UK company: profiles, monitoring, and filing images, priced in the open.
+**Stack:** Next.js · Prisma · Postgres · Stripe · Tailwind · Vitest + Playwright
 
 ### TourPro
 Operations for touring professionals: show settlements and P&L, flight and hotel booking via Duffel, Xero export, crew logistics, and offline sync on mobile.
